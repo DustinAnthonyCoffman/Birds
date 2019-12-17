@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  footer.page-footer {
+    padding-top: 0;
+    text-align: right;
+  }
+
+  .home {
+      position: absolute;
+      left: 530px;
+      text-transform: capitalize; 
+      font-family: 'Lakki Reddy', cursive;
+      letter-spacing: 20px; 
+  }
+
+  .landingImage {
+    position: absolute;
+    left: 240px;
+    top: 180px;
+    height: 500px;
+    width: 800px;
+    border: solid black 5px;
+  }
