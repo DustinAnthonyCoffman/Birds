@@ -70,4 +70,4 @@ def add_photo(request, bird_id):
     return redirect('detail', bird_id=bird_id)
 
 def test(request):   #delete this 
-    return HttpResponse('<h1> This is the page that we are testing </h1>')
+     return render(request, 'test.html')
