@@ -3,6 +3,7 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic import ListView, DetailView
 from .models import Bird, Photo
 from .forms import FeedingForm
+from django.http import HttpResponse
 import uuid
 import boto3
 
@@ -67,3 +68,6 @@ def add_photo(request, bird_id):
         except:
             print('an error occured uploading file to S3')
     return redirect('detail', bird_id=bird_id)
+
+def test(request):   #delete this 
+    return HttpResponse('<h1> This is the page that we are testing </h1>')
