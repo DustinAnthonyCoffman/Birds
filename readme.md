@@ -1,5 +1,10 @@
 # Welcome to Birds
-# mutiny is not allowed Naomi-chan
+
+# <(^_^)>
+# <(^_^)><(^_^)>
+# <(^_^)><(^_^)><(^_^)>
+# <(^_^)><(^_^)><(^_^)><(^_^)>
+
 ## After forking to your github:
 * Clone down to your machine
 * git remote -v to check remote connections
