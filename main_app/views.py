@@ -15,7 +15,7 @@ import boto3
 
 class BirdCreate(CreateView):
     model = Bird
-    fields = ['name', 'species', 'description', 'age']
+    fields = ['name', 'species', 'description', 'age', 'flight']
 
 class BirdUpdate(UpdateView):
     model = Bird
