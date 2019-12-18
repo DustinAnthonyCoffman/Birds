@@ -14,6 +14,7 @@ class Bird(models.Model):
     species = models.CharField(max_length=100)
     description = models.TextField(max_length=250)
     age = models.IntegerField()
+    flight = models.BooleanField(True)  # delete this
 
     def __str__(self):
         return self.name
