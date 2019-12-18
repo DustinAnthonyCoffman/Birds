@@ -1,4 +1,4 @@
-# Welcome to Birds
+# I'm the Captain now.
 ## After forking to your github:
 * Clone down to your machine
 * git remote -v to check remote connections
