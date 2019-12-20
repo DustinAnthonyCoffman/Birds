@@ -2,7 +2,6 @@
 {% block content %}
 
 <h1>Bird List</h1>
-<a class="waves-effect waves-light btn">Add Bird</a>
 {% for bird in birds %}
 <div class="card">
   <a href="{% url 'detail' bird.id %}">
@@ -10,7 +9,6 @@
         <span class="card-title">{{ bird.name }}</span>
         <p>Species: {{ bird.species }}</p>
         <p>Description: {{ bird.description }}</p>
-        <p>Flight: {{ bird.flight }}</p>
         {% if bird.age > 0 %}
         <p>Age: {{ bird.age }}</p>
         {% else %}

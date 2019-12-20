@@ -15,7 +15,7 @@ import boto3
 
 class BirdCreate(CreateView):
     model = Bird
-    fields = ['name', 'species', 'description', 'age', 'flight']
+    fields = ['name', 'species', 'description', 'age']
 
 class BirdUpdate(UpdateView):
     model = Bird
@@ -68,6 +68,3 @@ def add_photo(request, bird_id):
         except:
             print('an error occured uploading file to S3')
     return redirect('detail', bird_id=bird_id)
-
-def test(request):   #delete this 
-     return render(request, 'test.html')
