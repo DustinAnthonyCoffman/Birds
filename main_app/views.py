@@ -64,6 +64,7 @@ def birds_detail(request, bird_id):
         'bird': bird, 
         'feeding_form': feeding_form
     })
+    
 @login_required
 def add_photo(request, bird_id):
     S3_BASE_URL = 'https://s3.us-east-2.amazonaws.com/'
